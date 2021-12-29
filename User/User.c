@@ -26,8 +26,15 @@ uint32_t pTxMailbox = 0;
 //	
 //}
 
+void CAN_getMessage()
+{
 
+}
 
+void CAN_sendMessage()
+{
+
+}
 
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)//接受邮箱0挂起中断回调函数
 {
